@@ -9,6 +9,7 @@
   max-width: 1920px;
   height: 652px;
   /* background-color: red; */
+  margin: 0 auto;
 }
 #first-section .home {
   display: flex;
@@ -38,7 +39,6 @@
   color: white;
   background: rgb(31, 50, 95);
   cursor: pointer;
-  /* margin-top: 50px; */
 }
 /* second section  */
 
