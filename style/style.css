@@ -92,15 +92,14 @@
   font-size: 24px;
   font-weight: 700;
   line-height: 36px;
-  padding-bottom: 20px;
+  padding-bottom: 17px;
 }
 .card-container .card .card-box p {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
   opacity: 0.7;
-  padding-bottom: 20px;
-
+  padding-bottom: 17px;
 }
 .card-container .card .card-box button {
   padding: 12px 20px 12px 20px;
@@ -108,10 +107,50 @@
   font-weight: 600;
   line-height: 23px;
   cursor: pointer;
-  
 }
 .card-container .card .images {
   margin-top: 50px;
   width: 259.56px;
   height: 217.01px;
+}
+
+/* third-section */
+
+#third-section {
+  max-width: 1140px;
+  height: 777px;
+  margin: 50px auto;
+  text-align: center;
+}
+#third-section .first-div h1 {
+  margin: 24px 0px;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+}
+#third-section .first-div p {
+  margin: 24px 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+}
+#third-section .second-div iframe {
+  margin-top: 20px;
+  width: 1076px;
+  height: 580px;
+}
+
+/* footer  */
+
+#footer .parent {
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+.parent .child2 a {
+  padding-left: 20px;
 }
