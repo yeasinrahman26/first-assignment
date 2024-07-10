@@ -64,7 +64,7 @@
   padding-top: 5px;
 }
 #second-section .info .subtitle {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 26px;
   text-align: center;
@@ -130,7 +130,7 @@
 }
 #third-section .first-div p {
   margin: 24px 0px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 26px;
   opacity: 0.7;
@@ -140,6 +140,69 @@
   width: 1076px;
   height: 580px;
 }
+/* forth-section */
+
+#forth-section {
+  max-width: 1140px;
+  height: 463px;
+  margin: 50px auto;
+  /* background-color: rgb(0, 255, 170); */
+}
+#forth-section .headline {
+  text-align: center;
+  padding: 20px 0;
+}
+#forth-section .headline h1 {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+}
+#forth-section .headline p {
+  opacity: 0.7;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 20px;
+}
+
+#forth-section .card-parent {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  gap: 20px;
+}
+#forth-section .card-parent .card-container {
+  max-width: 364px;
+  height: 300px;
+  border-radius: 16px;
+  border: none;
+}
+#forth-section .card-parent .card-container .card-box {
+  padding: 40px;
+}
+#forth-section .card-parent .card-container .card-box img {
+  padding-bottom: 15px;
+
+}
+#forth-section .card-parent .card-container .card-box h2 {
+  padding-bottom: 15px;
+}
+#forth-section .card-parent .card-container .card-box p {
+  padding-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* footer  */
 
